@@ -1,4 +1,4 @@
-# 🫀 Heart Disease Prediction — Comparative ML Analysis
+# 🫀 Heart Disease Prediction - Comparative ML Analysis
 ### Binary Classification | GridSearchCV Tuning | SHAP & LIME Explainability | 5 Models
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
@@ -12,9 +12,9 @@
 
 ## 📌 Problem Statement
 
-Heart disease is the leading cause of death globally, responsible for approximately **17.9 million deaths per year** according to the WHO. Early detection is critical — patients identified as high-risk can receive timely interventions that significantly improve survival outcomes.
+Heart disease is the leading cause of death globally, responsible for approximately **17.9 million deaths per year** according to the WHO. Early detection is critical, patients identified as high-risk can receive timely interventions that significantly improve survival outcomes.
 
-This project builds and compares multiple machine learning models that predict heart disease from routine clinical measurements. The goal is not just accuracy, but also **clinical explainability** — using SHAP and LIME to reveal exactly why the model flags a patient as high-risk.
+This project builds and compares multiple machine learning models that predict heart disease from routine clinical measurements. The goal is not just accuracy, but also **clinical explainability** , using SHAP and LIME to reveal exactly why the model flags a patient as high-risk.
 
 > **Dataset:** Heart Disease Prediction — 270 patients, 14 clinical features  
 > **Domain:** Healthcare AI / Clinical Decision Support  
@@ -153,11 +153,11 @@ jupyter notebook Heart_Disease_Prediction.ipynb
 
 ## 💼 Clinical Recommendations
 
-1. **Prioritize fluoroscopy and thallium tests** — the strongest predictors; ensure these are part of standard screening protocols
-2. **Monitor asymptomatic patients carefully** — type 4 chest pain (silent ischemia) is the highest-risk presentation and is easily overlooked
-3. **Track ST depression during exercise tests** — a consistent predictor across all models and confirmed by SHAP
-4. **Use LIME explanations in clinical workflow** — patient-specific explanations increase physician trust and support informed consent
-5. **Flag patients with low max HR during stress tests** — inability to achieve target heart rate is a strong independent risk marker
+1. **Prioritize fluoroscopy and thallium tests**  the strongest predictors; ensure these are part of standard screening protocols
+2. **Monitor asymptomatic patients carefully**  type 4 chest pain (silent ischemia) is the highest-risk presentation and is easily overlooked
+3. **Track ST depression during exercise tests**  a consistent predictor across all models and confirmed by SHAP
+4. **Use LIME explanations in clinical workflow**  patient-specific explanations increase physician trust and support informed consent
+5. **Flag patients with low max HR during stress tests**  inability to achieve target heart rate is a strong independent risk marker
 
 ---
 
